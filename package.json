@@ -9,8 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lucide-react": "^0.554.0",
     "framer-motion": "^12.23.24",
+    "google-auth-library": "^10.5.0",
+    "lucide-react": "^0.554.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },

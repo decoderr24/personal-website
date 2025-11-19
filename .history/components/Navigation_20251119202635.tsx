@@ -48,7 +48,7 @@ const Navigation: React.FC = () => {
             className="flex-shrink-0 font-mono font-bold text-2xl text-white tracking-tighter cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            Personal<span className="text-indigo-500"> Website</span>
+            Personal<span className="text-indigo-500"> website</span>
           </div>
           
           {/* Desktop Menu */}

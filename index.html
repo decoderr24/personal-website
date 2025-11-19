@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rifky Bintang | ML Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['Space Grotesk', 'monospace'],
+            },
+            colors: {
+              space: {
+                900: '#0B0D17',
+                800: '#151932',
+                accent: '#6366f1'
+              }
+            },
+            animation: {
+              'spin-slow': 'spin 20s linear infinite',
+              'spin-slower': 'spin 60s linear infinite',
+              'reverse-spin': 'reverse-spin 20s linear infinite',
+              'float': 'float 6s ease-in-out infinite',
+              'float-delayed': 'float 6s ease-in-out 3s infinite',
+              'pulse-glow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'shine': 'shine 1.5s ease-in-out infinite',
+              'orbit': 'orbit 20s linear infinite',
+            },
+            keyframes: {
+              'reverse-spin': {
+                from: { transform: 'rotate(360deg)' },
+                to: { transform: 'rotate(0deg)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              },
+              shine: {
+                '0%': { left: '-100%' },
+                '100%': { left: '200%' },
+              },
+              orbit: {
+                '0%': { transform: 'rotate(0deg)' },
+                '100%': { transform: 'rotate(360deg)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0B0D17;
+        color: #ffffff;
+        overflow-x: hidden;
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0B0D17;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #374151;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6366f1;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

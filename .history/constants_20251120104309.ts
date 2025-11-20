@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
     tags: ["Computer Vision", "ViT", "Transformers", "Classification"],
     link: "https://github.com/decoderr24/Indonesian-Batik-ViT",
     category: "CV",
-    image: "projects\indonesian-batik.webp"
+    image: "/projects/indonesian-batik.webp"
   },
   {
     title: "Premier League Prediction",
@@ -60,7 +60,7 @@ export const PROJECTS: Project[] = [
     tags: ["Machine Learning", "Data Analysis", "Pandas", "Scikit-learn"],
     link: "https://github.com/decoderr24/premier-league_prediction",
     category: "Prediction",
-    image: "projects\premier-league.webp"
+    image: "C:\Users\user\Documents\Project\personal-web\projects\premier-league.webp"
   },
   {
     title: "ViT for Limited Medical Data",
@@ -76,6 +76,6 @@ export const PROJECTS: Project[] = [
     tags: ["CNN", "MobileNet", "Agriculture", "TensorFlow"],
     link: "https://github.com/decoderr24/klasifikasi-tebu-mobilenetv2",
     category: "CV",
-    image: "projects\sugarcane-leaf.jpg"
+    image: "C:\Users\user\Documents\Project\personal-web\projects\sugarcane-leaf.jpg"
   }
 ];

@@ -76,6 +76,6 @@ export const PROJECTS: Project[] = [
     tags: ["CNN", "MobileNet", "Agriculture", "TensorFlow"],
     link: "https://github.com/decoderr24/klasifikasi-tebu-mobilenetv2",
     category: "CV",
-    image: "projects\sugarcane-leaf.jpg"
+    image: "projects\\sugarcane-leaf.jpg"
   }
 ];

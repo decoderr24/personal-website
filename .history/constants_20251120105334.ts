@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
     tags: ["Computer Vision", "ViT", "Transformers", "Classification"],
     link: "https://github.com/decoderr24/Indonesian-Batik-ViT",
     category: "CV",
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FCollection-of-pattern-batik-from-diffrent-area-In-Indonesia_fig1_336640035&psig=AOvVaw1GoVqZJopmyQ3cGLQW6NhS&ust=1763697278384000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKis-L_q_5ADFQAAAAAdAAAAABAE"
+    image: "/projects/indonesian-batik.webp"
   },
   {
     title: "Premier League Prediction",
@@ -60,7 +60,7 @@ export const PROJECTS: Project[] = [
     tags: ["Machine Learning", "Data Analysis", "Pandas", "Scikit-learn"],
     link: "https://github.com/decoderr24/premier-league_prediction",
     category: "Prediction",
-    image: "https://www.google.com/imgres?q=premier%20league&imgurl=https%3A%2F%2Fthumbor.prod.vidiocdn.com%2FAqTBSQZSnCyqFnil718YLBWOqA0%3D%2F960x576%2Ffilters%3Aquality(75)%2Fvidio-web-prod-headline%2Fuploads%2Fheadline%2Fmobile_image%2F32342%2Fpremier-league-2025-26-81f589.jpg&imgrefurl=https%3A%2F%2Fwww.vidio.com%2Fcategories%2Fpremier-league&docid=XMgt6TXTE99WLM&tbnid=DGob0FRhB6NFeM&vet=12ahUKEwj1ivyx6v-QAxUIcWwGHVsSAPIQM3oECCAQAA..i&w=960&h=576&hcb=2&ved=2ahUKEwj1ivyx6v-QAxUIcWwGHVsSAPIQM3oECCAQAA"
+    image: "/projects/premier-league.webp"
   },
   {
     title: "ViT for Limited Medical Data",

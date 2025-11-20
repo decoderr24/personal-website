@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
     tags: ["Computer Vision", "ViT", "Transformers", "Classification"],
     link: "https://github.com/decoderr24/Indonesian-Batik-ViT",
     category: "CV",
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FCollection-of-pattern-batik-from-diffrent-area-In-Indonesia_fig1_336640035&psig=AOvVaw1GoVqZJopmyQ3cGLQW6NhS&ust=1763697278384000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKis-L_q_5ADFQAAAAAdAAAAABAE"
+    image: "/projects/indonesian-batik.webp"
   },
   {
     title: "Premier League Prediction",

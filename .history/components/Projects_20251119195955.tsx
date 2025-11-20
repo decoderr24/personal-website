@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
         >
           <h2 className="text-3xl font-bold text-white font-mono mb-4 flex items-center gap-3">
             <Terminal className="text-indigo-500" />
-            My Projects
+            FEATURED MISSIONS
           </h2>
           <div className="h-1 w-20 bg-indigo-500 rounded-full" />
           <p className="mt-4 text-gray-400 max-w-2xl">
